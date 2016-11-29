@@ -1,7 +1,38 @@
-body{
+body {
     padding-top: 90px;
 }
 
-.navbar-default{
+.navbar-default {
     background: #feffff !important;
 }
+
+.navbar-default .navbar-nav > li > a
+{
+    margin: 0;
+    padding: 30px 0 32px;
+    display: block;
+    background: none;
+    position: relative;
+    z-index: 20;
+    width: 84px;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    border-radius: 44px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover
+ {
+    background: #ff71a4;
+    /*margin: 0;*/
+    /*padding: 30px 0 32px;*/
+    display: block;
+    /*position: relative;*/
+    /*z-index: 20;*/
+    /*width: 84px;*/
+    /*-webkit-border-radius: 44px;*/
+    /*-moz-border-radius: 44px;*/
+    /*border-radius: 44px;*/
+    /*font-size: 18px;*/
+}
+
