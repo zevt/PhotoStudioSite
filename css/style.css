@@ -24,7 +24,8 @@ body {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
-    background: #ff71a4;
+    /*background: #ff71a4;*/
+    background: #e85356;
     display: block;
     margin: 0;
     padding: 30px 0 32px;
@@ -52,6 +53,13 @@ ul.navbar-nav
 .navbar-collapse {
     background: transparent !important;
 }
-nav {
+nav,
+.navbar > .navbar-header
+{
+    border-color: transparent !important;
+}
+
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     border-color: transparent !important;
 }
